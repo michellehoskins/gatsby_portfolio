@@ -1,0 +1,88 @@
+// Widescreens
+@include mediaXl {
+    .projects {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bio-image {
+      width: 70%;
+    }
+  }
+  
+// Desktops & Laptops
+@include mediaLg {
+    .projects {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .bio-image {
+      width: 70%;
+    }
+  }
+  
+//Tablets and Small Laptops
+@include mediaMd {
+    main {
+      align-items: center;
+      text-align: center;
+  
+      .lg-heading {
+        line-height: 1;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .bio-image {
+      justify-content: center;
+      width: 65%;
+    }
+  
+    .about-info {
+      grid-template-areas:
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+  
+      grid-template-columns: 1fr;
+    }
+  
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  //Smartphones
+  @include mediaSm {
+    main {
+      padding: 2rem;
+    #home h1 {
+      margin-top: 10vh;
+    }
+
+    .lg-heading {
+      margin-top:2rem;
+      font-size: 4rem;
+    }
+  
+    .projects {
+      grid-template-columns: 1fr;
+    }
+
+    .bio-image {
+      justify-content: center;
+      width: 65%;
+    }
+
+    #main-footer{
+      width: 100%;
+    }
+
+    #myName {
+      justify-content: center;
+    }
+  }
+  }
+
+  
