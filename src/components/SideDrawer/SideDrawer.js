@@ -4,10 +4,10 @@ import './SideDrawer.css';
 
 function SideDrawer ({ isOpen, setIsOpen }) {
     const links = [
-        {to: "./aboutme", title: "About"},
-        {to: "./projects", title: "Projects"},
-        {to: "./contact", title: "Contact"},
-        {to: "./blog", title: "Blog"}
+        {to: "/AboutMe/", title: "About"},
+        {to: "/Projects/", title: "Projects"},
+        {to: "/Contact/", title: "Contact"},
+        {to: "/Blog/", title: "Blog"}
     ];
 
     return(

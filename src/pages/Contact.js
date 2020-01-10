@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Footer from "../components/Footer"
+import Layout from "../components/layout"
 
 class Contact extends Component {
     render(){
         return(
+          <Layout>
             <div id="bg-img">
               <main id="contact">
                 <h1 className="lg-heading">Contact <span className="text-secondary">Me</span></h1>
@@ -38,8 +39,8 @@ class Contact extends Component {
 
       </div>
     </main>
-    <Footer />
             </div>
+            </Layout>
         )
     }
 }

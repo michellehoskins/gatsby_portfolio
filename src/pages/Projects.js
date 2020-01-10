@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from "../components/Footer"
+import Layout from "../components/layout"
 import Project1 from '../images/projects/project1.jpg';
 import Project2 from '../images/projects/project2.jpg';
 import Project3 from '../images/projects/project3.jpg';
@@ -9,6 +9,7 @@ import Project5 from '../images/projects/project5.jpg';
 class Projects extends Component {
     render(){
         return(
+          <Layout>
             <div id="bg-img">
             <main id="work">
             <h1 className="lg-heading">My <span className="text-secondary">Work</span></h1>
@@ -53,8 +54,8 @@ class Projects extends Component {
               </div>
             </div>
           </main>
-          <Footer />
           </div>
+          </Layout>
         )
     }
 }

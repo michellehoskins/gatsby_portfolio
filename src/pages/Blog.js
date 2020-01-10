@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import Footer from "../components/Footer"
+import Layout from "../components/layout"
 
 class Blog extends Component {
     render(){
         return(
+          <Layout>
             <div id="bg-img">
               <main id="blog">
                 <h1 className="lg-heading">My <span className="text-secondary">Blog</span></h1>
@@ -21,8 +22,8 @@ class Blog extends Component {
 
       </div>
     </main>
-    <Footer />
             </div>
+            </Layout>
         )
     }
 }

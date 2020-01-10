@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Layout from "../components/layout"
 import Photo2 from '../images/moi2.jpg';
-import Footer from "../components/Footer"
 
 class About extends Component {
     render(){
         return(
+        <Layout>
             <div id="bg-img">
               <main id="about">
                 <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
@@ -45,8 +46,8 @@ class About extends Component {
         </div>
       </div>
     </main>
-    <Footer />
             </div>
+            </Layout>
         )
     }
 }
