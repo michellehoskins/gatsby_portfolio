@@ -35,7 +35,7 @@ class Contact extends Component {
                       <div data-netlify-recaptcha="true"></div>
                     </div>
                 
-                    <input className="button" type="submit" name="submit" value="Submit" />
+                    <button className="button">Send</button>
                   </form>
                 </h3>
  
