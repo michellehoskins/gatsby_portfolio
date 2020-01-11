@@ -4,7 +4,7 @@ import './SideDrawer.css';
 
 function SideDrawer ({ isOpen, setIsOpen }) {
     const links = [
-        {to: "/AboutMe/", title: "About"},
+        {to: "/About/", title: "About"},
         {to: "/Projects/", title: "Projects"},
         {to: "/Contact/", title: "Contact"},
         {to: "/Blog/", title: "Blog"}

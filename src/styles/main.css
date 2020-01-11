@@ -168,10 +168,11 @@ main#home h1 {
 }
 
 .myform .button {
-  background-color: #444444;
-  background: #444444;
+  background-color: #521751;
+  background: #521751;
   color: #ffffff;
   padding: 10px 20px;
+  border-radius: 5px;
   font-size: 12pt;
   border: solid #666666;
   font-weight: normal;
