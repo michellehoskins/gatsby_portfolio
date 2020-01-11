@@ -18,25 +18,28 @@ class Contact extends Component {
                   <form method="POST" data-netlify="true" name="contact" className="myform">
                     <input type="hidden" name="bot-field" />
                     <div className="fields">
-                        <label>Name</label>
+                        <label>Name
                         <input type="text" name="name" placeholder="John Smith" />
+                        </label>
                     </div>
 
                     <div className="fields">
-                        <label>Email</label>
+                        <label>Email
                         <input type="email" name="email" placeholder="example@gmail.com" />
+                        </label>
                     </div>
 
                     <div className="fields">
-                        <label>Message</label>
+                        <label>Message
                         <textarea name="message"></textarea>
+                        </label>
                     </div>
 
                     <div className="fields">
                       <div data-netlify-recaptcha="true"></div>
                     </div>
                 
-                    <button className="button" type="submit">Submit</button>
+                    <button className="button" name="submit" type="submit">Submit</button>
                   </form>
                 </h3>
  
