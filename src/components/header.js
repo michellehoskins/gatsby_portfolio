@@ -1,7 +1,7 @@
 import React, { Component }  from 'react'
-import Toolbar from './Toolbar/Toolbar'
-import SideDrawer from './SideDrawer/SideDrawer'
-import Backdrop from './Backdrop/Backdrop'
+import Toolbar from './Toolbar'
+import SideDrawer from './SideDrawer'
+import Backdrop from './Backdrop'
 
 
 class Header extends Component {

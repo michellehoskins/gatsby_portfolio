@@ -85,4 +85,27 @@
   }
   }
 
+  // Toolbar
+  @media (max-width: 768px) {
+    .toolbar__navigation-items {
+        display: none;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+  
+    .toolbar__logo {
+        margin-left: 0;
+    }
+  }
+
+  // Side Drawer
+  @media (min-width: 769px) {
+    .side-drawer {
+        display: none;
+    }
+  }
   

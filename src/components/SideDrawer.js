@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
-import './SideDrawer.css';
+import '../styles/main.css'
 
 function SideDrawer ({ isOpen, setIsOpen }) {
     const links = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby"
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-import './Toolbar.css';
+import DrawerToggleButton from './DrawerToggleButton'
+import '../styles/main.css'
 
 const toolbar = props => (
     <header className="toolbar">
