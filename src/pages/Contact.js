@@ -16,6 +16,8 @@ class Contact extends Component {
               <div className="bio">
                 <h3 className="text-secondary">
                   <form method="POST" data-netlify="true" name="contact" className="myform">
+                    <input type="hidden" name="bot-field" />
+                    <input type="hiden" name="contact" value="contact" />
                     <div className="fields">
                         <label>Name</label>
                         <input type="text" name="name" placeholder="John Smith" />
