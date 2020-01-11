@@ -15,10 +15,10 @@ class Contact extends Component {
                 
               <div className="bio">
                 <h3 className="text-secondary">
-                  <form className="myform">
+                  <form action="POST" data-netlify="true" className="myform">
                     <div className="formgroup">
                         <label>Name</label>
-                        <input type="text" name="Name" placeholder="John Smith" />
+                        <input type="text" name="name" placeholder="John Smith" />
                     </div>
 
                     <div className="formgroup">
@@ -28,10 +28,12 @@ class Contact extends Component {
 
                     <div className="formgroup">
                         <label>Message</label>
-                        <textarea name="Message"></textarea>
+                        <textarea name="message"></textarea>
                     </div>
-
-                    <input className="button" type="submit" name="Submit" value="Submit" />
+                    <div className="formgroup">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+                    <input className="button" type="submit" name="submit" value="Submit" />
                   </form>
                 </h3>
  
