@@ -16,21 +16,21 @@ class Contact extends Component {
               <div className="bio">
                 <h3 className="text-secondary">
                   <form action="POST" data-netlify="true" className="myform">
-                    <div className="formgroup">
+                    <div className="fields">
                         <label>Name</label>
                         <input type="text" name="name" placeholder="John Smith" />
                     </div>
 
-                    <div className="formgroup">
+                    <div className="fields">
                         <label>Email</label>
                         <input type="email" name="email" placeholder="example@gmail.com" />
                     </div>
 
-                    <div className="formgroup">
+                    <div className="fields">
                         <label>Message</label>
                         <textarea name="message"></textarea>
                     </div>
-                    <div className="formgroup">
+                    <div className="fields">
                       <div data-netlify-recaptcha="true"></div>
                     </div>
                     <input className="button" type="submit" name="submit" value="Submit" />
