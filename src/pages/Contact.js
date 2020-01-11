@@ -15,7 +15,8 @@ class Contact extends Component {
                 
               <div className="bio">
                 <h3 className="text-secondary">
-                  <form method="POST" data-netlify="true" name="contact" className="myform">
+                  <form method="POST" data-netlify="true" netlify-honeypot="bot-field" name="contact" className="myform">
+                  <input type="hidden" name="form-name" value="contact"/>
                     <input type="hidden" name="bot-field" />
                     <div className="fields">
                         <label>Name
@@ -33,10 +34,6 @@ class Contact extends Component {
                         <label>Message
                         <textarea name="message"></textarea>
                         </label>
-                    </div>
-
-                    <div className="fields">
-                      <div data-netlify-recaptcha="true"></div>
                     </div>
                 
                     <button className="button" name="submit" type="submit">Submit</button>
