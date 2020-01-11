@@ -30,6 +30,10 @@ class Contact extends Component {
                         <label>Message</label>
                         <textarea name="message"></textarea>
                     </div>
+
+                    <div className="fields">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
                 
                     <input className="button" type="submit" name="submit" value="Submit" />
                   </form>
