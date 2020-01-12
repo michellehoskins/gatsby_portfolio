@@ -20,7 +20,7 @@ class Contact extends Component {
                     <input type="hidden" name="bot-field" />
                     <div className="fields">
                         <label>Name
-                        <input type="text" name="name" placeholder="John Smith" />
+                        <input type="text" name="name" placeholder="John Doe" />
                         </label>
                     </div>
 

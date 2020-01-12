@@ -381,7 +381,8 @@ main#home h1 {
 }
 
 #main-footer {
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1171px) {
