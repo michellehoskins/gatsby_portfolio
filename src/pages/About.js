@@ -19,7 +19,7 @@ class About extends Component {
                   Biography
                 </h3>
                 <p>
-                  Accomplished in Web and Software Development: HTML, CSS, SASS, Javascript, ES6+ PHP, MySQL, Node.js, Express, React, MongoDB, Laravel, CakePHP, WordPress, HTML Emails, GitHub, BitBucket, Adobe Creative Suite, and Version Control.
+                  Accomplished in Web and Software Development: HTML, CSS, SASS, Javascript, ES6+, AJAX, APIs, PHP, MySQL, Node.js, Express, React, MongoDB, Laravel, CakePHP, WordPress, HTML Emails, GitHub, BitBucket, Adobe Creative Suite, and Version Control.
                 </p>
               </div>
 
