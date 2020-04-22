@@ -32,16 +32,16 @@ class About extends Component {
         </div>
         <div className="job job-2">
           <h3>my360e</h3>
-          <h6>Software Developer</h6>
+          <h6>Developer</h6>
           <p>
-            We create enterprise level software for contractors. Built with the CakePHP framework.
+            Created enterprise level software for contractors. Built with the CakePHP framework.
           </p>
         </div>
         <div className="job job-3">
-          <h3>Freelancer</h3>
-          <h6>HTML E-mail Developer</h6>
+          <h3>Get On Health</h3>
+          <h6>Developer</h6>
           <p>
-            I create eye-catching and creative responsive emails. Convert PSDs to HTML/CSS. Any client's request can be fufilled. Flexible and attentive to detail.
+            Created a beautiful website for MDs and other healthcare professionials who want Telehealth services for their patients.
           </p>
         </div>
       </div>
