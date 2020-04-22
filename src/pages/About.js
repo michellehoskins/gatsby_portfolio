@@ -19,7 +19,7 @@ class About extends Component {
                   Biography
                 </h3>
                 <p>
-                  Accomplished in Email Development, Adobe PS, HTML, CSS, SASS, Javascript, PHP, MySQL, Node.js, Express, MongoDB, GitHub, BitBucket, and Version Control.
+                  Accomplished in Web and Software Development: HTML, CSS, SASS, Javascript, ES6+ PHP, MySQL, Node.js, Express, React, MongoDB, Laravel, CakePHP, WordPress, HTML Emails, GitHub, BitBucket, Adobe Creative Suite, and Version Control.
                 </p>
               </div>
 
@@ -41,7 +41,7 @@ class About extends Component {
           <h3>Get On Health</h3>
           <h6>Developer</h6>
           <p>
-            Created a beautiful website for MDs and other healthcare professionials who want Telehealth services for their patients.
+            Created a beautiful application for MDs and other healthcare professionials who want Telehealth services for their patients.
           </p>
         </div>
       </div>
