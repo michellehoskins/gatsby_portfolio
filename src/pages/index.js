@@ -17,14 +17,14 @@ class IndexPage extends React.Component {
                 Web Developer
               </h2>
               <div class="icons">
-                <a href="https://www.linkedin.com/in/michelle-williams-3b8a48132/" target="_blank">
-                  <i class="fab fa-linkedin fa-2x"></i>
+              <a href="https://www.linkedin.com/in/michelle-williams-3b8a48132/" target="_blank">
+                  <i className="fab fa-linkedin fa-2x"></i>
                 </a>
                 <a href="https://github.com/mmwilliamscodes" target="_blank">
-                  <i class="fab fa-github fa-2x"></i>
+                  <i className="fab fa-github fa-2x"></i>
                 </a>
                 <a href="https://twitter.com/MMWilli51510569" target="_blank">
-                  <i class="fab fa-twitter fa-2x"></i>
+                  <i className="fab fa-twitter fa-2x"></i>
                 </a>
               </div>
               </main>
