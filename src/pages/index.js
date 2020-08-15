@@ -81,7 +81,7 @@ class IndexPage extends React.Component {
                 />
               </a>
               <a
-                href="https://twitter.com/MMWilli51510569"
+                href="https://twitter.com/mmwilliamscodes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
