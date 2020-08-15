@@ -62,10 +62,11 @@ main {
       padding: 0.4rem;
       @include easeOut();
 
-      .icon:hover,
-      .icon:focus,
-      .icon:active {
-        fill: $secondary-color !important;
+      .icon {
+        color: #ffffff;
+      }
+      .icon:hover {
+        color: $secondary-color;
       }
     }
   }
