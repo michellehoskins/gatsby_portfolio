@@ -197,6 +197,7 @@ main {
   color: #333333;
 }
 
+// Footer
 #main-footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -209,6 +210,10 @@ main {
   bottom: 0;
   overflow: hidden;
   z-index: 8;
+
+  a:hover {
+    color: $secondary-color;
+  }
 }
 
 // Toolbar
