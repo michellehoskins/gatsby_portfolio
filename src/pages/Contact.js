@@ -24,22 +24,28 @@ class Contact extends Component {
                     <input type="hidden" name="form-name" value="contact" />
                     <input type="hidden" name="bot-field" />
                     <div className="fields">
-                      <label>Name</label>
-                      <input type="text" name="name" placeholder="John Doe" />
+                      <label>
+                        Name
+                        <input type="text" name="name" placeholder="John Doe" />
+                      </label>
                     </div>
 
                     <div className="fields">
-                      <label>Email</label>
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="example@gmail.com"
-                      />
+                      <label>
+                        Email
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="example@gmail.com"
+                        />
+                      </label>
                     </div>
 
                     <div className="fields">
-                      <label>Message</label>
-                      <textarea name="message"></textarea>
+                      <label>
+                        Message
+                        <textarea name="message"></textarea>
+                      </label>
                     </div>
 
                     <button className="button" name="submit" type="submit">
