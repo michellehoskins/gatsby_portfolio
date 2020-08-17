@@ -26,7 +26,11 @@ class Contact extends Component {
                     <div className="fields">
                       <label>
                         Name
-                        <input type="text" name="name" placeholder="John Doe" />
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="John Smith"
+                        />
                       </label>
                     </div>
 

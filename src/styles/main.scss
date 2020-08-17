@@ -163,10 +163,13 @@ main {
     background-color: #521751;
     background: #521751;
     color: #ffffff;
-    padding: 10px 20px;
+    margin: 10px 20px;
     border-radius: 5px;
     font-size: 12pt;
     font-weight: normal;
+    border: 0;
+    padding: 0;
+    outline: none;
     &:hover {
       color: $secondary-color;
     }
