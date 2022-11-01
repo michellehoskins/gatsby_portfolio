@@ -19,8 +19,9 @@ class About extends Component {
                 <p>
                   Accomplished in Web and Software Development: HTML, CSS, SASS,
                   Javascript, ES6+, AJAX, APIs, PHP, MySQL, Node.js, Express,
-                  React, MongoDB, Laravel, CakePHP, WordPress, HTML Emails,
-                  GitHub, BitBucket, Adobe Creative Suite, and Version Control.
+                  React, MongoDB, Laravel, CakePHP, WordPress, Drupal, Swift,
+                  iOS applications, HTML Emails, GitHub, BitBucket, Adobe
+                  Creative Suite, Testing and Version Control.
                 </p>
               </div>
 
@@ -28,22 +29,27 @@ class About extends Component {
                 <h3>my360e</h3>
                 <h6>Software Engineer</h6>
                 <p>
-                  Created enterprise level software for contractors. Built with
-                  the CakePHP framework.
+                  Created enterprise level software for contractors. This
+                  Software helped contractors keep track of billing, quoting and
+                  scheduling. Built with the CakePHP framework.
                 </p>
               </div>
               <div className="job job-2">
-                <h3>Generator Works</h3>
-                <h6>Web Developer</h6>
+                <h3>BoxCast</h3>
+                <h6>Software Engineer</h6>
                 <p>
-                  Built applications to enable telehealth for healthcare
-                  providers and their patients.
+                  Focus on delivering live-streaming to clients. Worked on
+                  interfaces and dashboards of multiple applications. Also
+                  worked on the mobile iOS application.
                 </p>
               </div>
               <div className="job job-3">
-                <h3>BoxCast</h3>
+                <h3>NOSHOK</h3>
                 <h6>Software Engineer</h6>
-                <p>Delivering live-streaming services to clients.</p>
+                <p>
+                  Focus on ecommerce and marketing webistes. Also maintaining
+                  existing code bases and expanding their features.
+                </p>
               </div>
             </div>
           </main>
